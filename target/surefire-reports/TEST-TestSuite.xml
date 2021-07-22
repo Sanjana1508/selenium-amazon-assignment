@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="48.215" tests="9" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="webdriver.chrome.driver" value="/home/sanjp/Downloads/chromedriver_linux64/chromedriver"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/sanjp/IdeaProjects/AmazonSelenium1/target/test-classes:/home/sanjp/IdeaProjects/AmazonSelenium1/target/classes:/home/sanjp/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/home/sanjp/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/home/sanjp/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/home/sanjp/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/home/sanjp/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/home/sanjp/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/home/sanjp/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/home/sanjp/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/home/sanjp/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/home/sanjp/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/home/sanjp/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/home/sanjp/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/sanjp/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/home/sanjp/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/home/sanjp/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/home/sanjp/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/home/sanjp/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/home/sanjp/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/home/sanjp/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/home/sanjp/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/home/sanjp/.m2/repository/org/testng/testng/7.4.0/testng-7.4.0.jar:/home/sanjp/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/home/sanjp/.m2/repository/org/webjars/jquery/3.5.1/jquery-3.5.1.jar:"/>
+    <property name="java.vm.vendor" value="Private Build"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Linux"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64"/>
+    <property name="sun.java.command" value="/home/sanjp/IdeaProjects/AmazonSelenium1/target/surefire/surefirebooter3108734713903348629.jar /home/sanjp/IdeaProjects/AmazonSelenium1/target/surefire 2021-07-22T13-09-24_739-jvmRun1 surefire924586472790628070tmp surefire_03872869784913999545tmp"/>
+    <property name="surefire.test.class.path" value="/home/sanjp/IdeaProjects/AmazonSelenium1/target/test-classes:/home/sanjp/IdeaProjects/AmazonSelenium1/target/classes:/home/sanjp/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/home/sanjp/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/home/sanjp/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/home/sanjp/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/home/sanjp/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/home/sanjp/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/home/sanjp/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/home/sanjp/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/home/sanjp/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/home/sanjp/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/home/sanjp/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/home/sanjp/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/sanjp/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/home/sanjp/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/home/sanjp/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/home/sanjp/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/home/sanjp/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/home/sanjp/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/home/sanjp/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/home/sanjp/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/home/sanjp/.m2/repository/org/testng/testng/7.4.0/testng-7.4.0.jar:/home/sanjp/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/home/sanjp/.m2/repository/org/webjars/jquery/3.5.1/jquery-3.5.1.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/sanjp"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/usr/lib/jvm/java-8-openjdk-amd64/jre"/>
+    <property name="basedir" value="/home/sanjp/IdeaProjects/AmazonSelenium1"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/home/sanjp/IdeaProjects/AmazonSelenium1/target/surefire/surefirebooter3108734713903348629.jar"/>
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_292-8u292-b10-0ubuntu1~20.04-b10"/>
+    <property name="user.name" value="sanjp"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="5.8.0-59-generic"/>
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/home/sanjp/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="1.8.0_292"/>
+    <property name="user.dir" value="/home/sanjp/IdeaProjects/AmazonSelenium1"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Private Build"/>
+    <property name="java.vm.version" value="25.292-b10"/>
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="login" classname="com.amazon.tests.LoginTest" time="6.696">
+    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 28186
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 22, 2021 1:09:27 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="getDeal" classname="com.amazon.tests.TodaysDealsTest" time="16.127">
+    <failure message="expected [2] but found [1]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [2] but found [1]
+	at com.amazon.tests.TodaysDealsTest.getDeal(TodaysDealsTest.java:31)
+]]></failure>
+    <system-out><![CDATA[ChromeDriver: chrome on LINUX (a6ef74ebd10378d61a2132410eb6ee02)
+]]></system-out>
+  </testcase>
+  <testcase name="getLastMobile" classname="com.amazon.tests.MobilesTest" time="2.287">
+    <system-out><![CDATA[ChromeDriver: chrome on LINUX (a6ef74ebd10378d61a2132410eb6ee02)
+Redmi 9A (Sea Blue 2GB RAM 32GB Storage) | 2GHz Octa-core Helio G25 Processor | 5000 mAh Battery
+]]></system-out>
+  </testcase>
+  <testcase name="getDeliveryDetails" classname="com.amazon.tests.PrimeDeliveryTest" time="4.864">
+    <system-out><![CDATA[ChromeDriver: chrome on LINUX (a6ef74ebd10378d61a2132410eb6ee02)
+Monday, July 26
+FREE Delivery
+]]></system-out>
+  </testcase>
+  <testcase name="navigation" classname="com.amazon.tests.NavigationTest" time="5.512">
+    <system-out><![CDATA[ChromeDriver: chrome on LINUX (a6ef74ebd10378d61a2132410eb6ee02)
+]]></system-out>
+  </testcase>
+  <testcase name="orders" classname="com.amazon.tests.OrdersTest" time="2.747">
+    <system-out><![CDATA[ChromeDriver: chrome on LINUX (a6ef74ebd10378d61a2132410eb6ee02)
+]]></system-out>
+  </testcase>
+  <testcase name="paymentDetails" classname="com.amazon.tests.PaymentTest" time="3.925">
+    <system-out><![CDATA[ChromeDriver: chrome on LINUX (a6ef74ebd10378d61a2132410eb6ee02)
+]]></system-out>
+  </testcase>
+  <testcase name="addAddress" classname="com.amazon.tests.AddressTest" time="5.064">
+    <system-out><![CDATA[ChromeDriver: chrome on LINUX (a6ef74ebd10378d61a2132410eb6ee02)
+]]></system-out>
+  </testcase>
+  <testcase name="addressVerify" classname="com.amazon.tests.AddressTest" time="0.223">
+    <system-out><![CDATA[ChromeDriver: chrome on LINUX (a6ef74ebd10378d61a2132410eb6ee02)
+]]></system-out>
+  </testcase>
+</testsuite>

@@ -1,0 +1,8 @@
+com/amazon/tests/OrdersTest.class
+com/amazon/tests/LoginTest.class
+com/amazon/tests/PrimeDeliveryTest.class
+com/amazon/tests/PaymentTest.class
+com/amazon/tests/AddressTest.class
+com/amazon/tests/MobilesTest.class
+com/amazon/tests/NavigationTest.class
+com/amazon/tests/TodaysDealsTest.class

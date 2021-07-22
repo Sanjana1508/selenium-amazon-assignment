@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="/home/sanjp/IdeaProjects/AmazonSelenium">
+        <classes>
+            <class name="com.amazon.tests.LoginTest">
+            <methods>
+                <include name="login"/>
+            </methods>
+        </class>
+        <class name="com.amazon.tests.TodaysDealsTest">
+            <methods>
+                <include name="getDeal"/>
+            </methods>
+        </class>
+            <class name="com.amazon.tests.MobilesTest">
+                <methods>
+                    <include name="getLastMobile"/>
+                </methods>
+            </class>
+            <class name="com.amazon.tests.PrimeDeliveryTest">
+                <methods>
+                    <include name="getDeliveryDetails"/>
+                </methods>
+            </class>
+            <class name="com.amazon.tests.NavigationTest">
+                <methods>
+                    <include name="navigation"/>
+                </methods>
+            </class>
+            <class name="com.amazon.tests.OrdersTest">
+                <methods>
+                    <include name="orders"/>
+                </methods>
+            </class>
+            <class name="com.amazon.tests.PaymentTest">
+                <methods>
+                    <include name="paymentDetails"/>
+                </methods>
+            </class>
+            <class name="com.amazon.tests.AddressTest">
+                <methods>
+                    <include name="addAddress"/>
+                    <include name="addressVerify"/>
+                </methods>
+            </class>
+    </classes>
+</test>
+</suite>

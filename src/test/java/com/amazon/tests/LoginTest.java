@@ -3,7 +3,6 @@ package com.amazon.tests;
 import com.amazon.pages.LoginPage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 public class LoginTest {
@@ -20,9 +19,9 @@ public class LoginTest {
         LoginPage loginPage=new LoginPage(driver);
         driver.manage().window().maximize();
         loginPage.signIn().click();
-        loginPage.email().sendKeys("<email-address>");
+        loginPage.email().sendKeys("podduturisanjana@gmail.com");
         loginPage.continueBtn().click();
-        loginPage.password().sendKeys("<password>");
+        loginPage.password().sendKeys("Sanju333#");
         loginPage.submit().click();
 
 

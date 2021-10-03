@@ -1,8 +1,44 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 9, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 48.215 s <<< FAILURE! - in TestSuite
-com.amazon.tests.TodaysDealsTest.getDeal  Time elapsed: 16.127 s  <<< FAILURE!
-java.lang.AssertionError: expected [2] but found [1]
-	at com.amazon.tests.TodaysDealsTest.getDeal(TodaysDealsTest.java:31)
+Tests run: 9, Failures: 8, Errors: 0, Skipped: 1, Time elapsed: 2.256 s <<< FAILURE! - in TestSuite
+com.amazon.tests.LoginTest.login  Time elapsed: 1.271 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+unknown error: Chrome failed to start: exited abnormally.
+  (unknown error: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: '5CG0262CXH', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-25-generic', java.version: '1.8.0_292'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: #0 0x562989f37e89 <unknown>
+
+	at com.amazon.tests.LoginTest.login(LoginTest.java:15)
+
+com.amazon.tests.TodaysDealsTest.getDeal  Time elapsed: 0.045 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.amazon.tests.TodaysDealsTest.getDeal(TodaysDealsTest.java:21)
+
+com.amazon.tests.MobilesTest.getLastMobile  Time elapsed: 0.011 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.amazon.tests.MobilesTest.getLastMobile(MobilesTest.java:20)
+
+com.amazon.tests.PrimeDeliveryTest.getDeliveryDetails  Time elapsed: 0.003 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.amazon.tests.PrimeDeliveryTest.getDeliveryDetails(PrimeDeliveryTest.java:20)
+
+com.amazon.tests.NavigationTest.navigation  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.amazon.tests.NavigationTest.navigation(NavigationTest.java:18)
+
+com.amazon.tests.OrdersTest.orders  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.amazon.tests.OrdersTest.orders(OrdersTest.java:18)
+
+com.amazon.tests.PaymentTest.paymentDetails  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.amazon.tests.PaymentTest.paymentDetails(PaymentTest.java:19)
+
+com.amazon.tests.AddressTest.addAddress  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.amazon.tests.AddressTest.addAddress(AddressTest.java:28)
 

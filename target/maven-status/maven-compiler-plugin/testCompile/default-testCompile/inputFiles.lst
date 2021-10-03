@@ -1,8 +1,8 @@
-/home/sanjp/IdeaProjects/AmazonSelenium1/src/test/java/com/amazon/tests/OrdersTest.java
-/home/sanjp/IdeaProjects/AmazonSelenium1/src/test/java/com/amazon/tests/PrimeDeliveryTest.java
-/home/sanjp/IdeaProjects/AmazonSelenium1/src/test/java/com/amazon/tests/AddressTest.java
-/home/sanjp/IdeaProjects/AmazonSelenium1/src/test/java/com/amazon/tests/TodaysDealsTest.java
-/home/sanjp/IdeaProjects/AmazonSelenium1/src/test/java/com/amazon/tests/PaymentTest.java
-/home/sanjp/IdeaProjects/AmazonSelenium1/src/test/java/com/amazon/tests/NavigationTest.java
-/home/sanjp/IdeaProjects/AmazonSelenium1/src/test/java/com/amazon/tests/MobilesTest.java
-/home/sanjp/IdeaProjects/AmazonSelenium1/src/test/java/com/amazon/tests/LoginTest.java
+/home/sanjp/IdeaProjects/AmazonSeleniumProject/src/test/java/com/amazon/tests/OrdersTest.java
+/home/sanjp/IdeaProjects/AmazonSeleniumProject/src/test/java/com/amazon/tests/AddressTest.java
+/home/sanjp/IdeaProjects/AmazonSeleniumProject/src/test/java/com/amazon/tests/PrimeDeliveryTest.java
+/home/sanjp/IdeaProjects/AmazonSeleniumProject/src/test/java/com/amazon/tests/LoginTest.java
+/home/sanjp/IdeaProjects/AmazonSeleniumProject/src/test/java/com/amazon/tests/PaymentTest.java
+/home/sanjp/IdeaProjects/AmazonSeleniumProject/src/test/java/com/amazon/tests/NavigationTest.java
+/home/sanjp/IdeaProjects/AmazonSeleniumProject/src/test/java/com/amazon/tests/TodaysDealsTest.java
+/home/sanjp/IdeaProjects/AmazonSeleniumProject/src/test/java/com/amazon/tests/MobilesTest.java

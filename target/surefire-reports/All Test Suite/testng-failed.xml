@@ -3,11 +3,47 @@
 <suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [All Test Suite]">
   <test thread-count="5" verbose="0" name="/home/sanjp/IdeaProjects/AmazonSelenium(failed)">
     <classes>
+      <class name="com.amazon.tests.MobilesTest">
+        <methods>
+          <include name="getLastMobile"/>
+        </methods>
+      </class> <!-- com.amazon.tests.MobilesTest -->
+      <class name="com.amazon.tests.AddressTest">
+        <methods>
+          <include name="addressVerify"/>
+          <include name="addAddress"/>
+        </methods>
+      </class> <!-- com.amazon.tests.AddressTest -->
       <class name="com.amazon.tests.TodaysDealsTest">
         <methods>
           <include name="getDeal"/>
         </methods>
       </class> <!-- com.amazon.tests.TodaysDealsTest -->
+      <class name="com.amazon.tests.PaymentTest">
+        <methods>
+          <include name="paymentDetails"/>
+        </methods>
+      </class> <!-- com.amazon.tests.PaymentTest -->
+      <class name="com.amazon.tests.OrdersTest">
+        <methods>
+          <include name="orders"/>
+        </methods>
+      </class> <!-- com.amazon.tests.OrdersTest -->
+      <class name="com.amazon.tests.LoginTest">
+        <methods>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.amazon.tests.LoginTest -->
+      <class name="com.amazon.tests.PrimeDeliveryTest">
+        <methods>
+          <include name="getDeliveryDetails"/>
+        </methods>
+      </class> <!-- com.amazon.tests.PrimeDeliveryTest -->
+      <class name="com.amazon.tests.NavigationTest">
+        <methods>
+          <include name="navigation"/>
+        </methods>
+      </class> <!-- com.amazon.tests.NavigationTest -->
     </classes>
   </test> <!-- /home/sanjp/IdeaProjects/AmazonSelenium(failed) -->
 </suite> <!-- Failed suite [All Test Suite] -->
